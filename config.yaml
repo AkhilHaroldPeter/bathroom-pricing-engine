@@ -1,0 +1,17 @@
+alerting:
+  enabled: false
+  slack_webhook: ''
+default_currency: EUR
+etl:
+  bronze: data/bronze_raw.json
+  gold_prefix: history/quote
+  silver: data/silver_clean.json
+history_path: history
+hourly_rate_eur: 48.0
+margin:
+  default: 0.18
+  max: 0.3
+  min: 0.12
+profiling_path: profiling
+quality_gate:
+  max_price_change_pct: 25.0
