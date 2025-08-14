@@ -1,0 +1,190 @@
+{
+  "quote_id": "Q-20250814071010",
+  "created_utc": "2025-08-14T07:10:10.849284",
+  "system": "Donizo Smart Pricing Engine (demo)",
+  "currency": "EUR",
+  "zones": [
+    {
+      "zone_name": "Bathroom",
+      "area_m2": 4.0,
+      "city": "Marseille",
+      "city_index": 0.95,
+      "tasks": [
+        {
+          "task": "tiling_floor",
+          "quantity": 4.0,
+          "unit_material_desc": {
+            "unit": "m2",
+            "material": "ceramic_tile_standard",
+            "cost_per_unit": 28.0,
+            "wastage_factor": 1.08
+          },
+          "labor": {
+            "hours": 2.47,
+            "cost": 109.08
+          },
+          "materials": {
+            "cost": 98.99
+          },
+          "pricing": {
+            "margin": 0.14200000000000002,
+            "net_price": 237.61,
+            "vat_rate": 0.1,
+            "vat_amount": 23.76,
+            "total_price": 261.37
+          },
+          "estimated_duration_days": 1
+        },
+        {
+          "task": "demolition_tiles",
+          "quantity": 4.0,
+          "unit_material_desc": {
+            "unit": "m2",
+            "material": "disposal_bags_tip_fee",
+            "cost_per_unit": 6.0,
+            "wastage_factor": 1.0
+          },
+          "labor": {
+            "hours": 1.33,
+            "cost": 58.73
+          },
+          "materials": {
+            "cost": 22.8
+          },
+          "pricing": {
+            "margin": 0.14200000000000002,
+            "net_price": 93.11,
+            "vat_rate": 0.1,
+            "vat_amount": 9.31,
+            "total_price": 102.42
+          },
+          "estimated_duration_days": 1
+        },
+        {
+          "task": "vanity_install",
+          "quantity": 1.0,
+          "unit_material_desc": {
+            "unit": "each",
+            "material": "600mm_vanity_combo",
+            "cost_per_unit": 240.0,
+            "wastage_factor": 1.0
+          },
+          "labor": {
+            "hours": 1.9,
+            "cost": 83.9
+          },
+          "materials": {
+            "cost": 205.2
+          },
+          "pricing": {
+            "margin": 0.14200000000000002,
+            "net_price": 330.16,
+            "vat_rate": 0.2,
+            "vat_amount": 66.03,
+            "total_price": 396.19
+          },
+          "estimated_duration_days": 1
+        },
+        {
+          "task": "plumbing_shower",
+          "quantity": 1.0,
+          "unit_material_desc": {
+            "unit": "each",
+            "material": "shower_rough_in_kit",
+            "cost_per_unit": 120.0,
+            "wastage_factor": 1.0
+          },
+          "labor": {
+            "hours": 4.75,
+            "cost": 209.76
+          },
+          "materials": {
+            "cost": 114.0
+          },
+          "pricing": {
+            "margin": 0.14200000000000002,
+            "net_price": 369.73,
+            "vat_rate": 0.2,
+            "vat_amount": 73.95,
+            "total_price": 443.68
+          },
+          "estimated_duration_days": 1
+        },
+        {
+          "task": "painting_walls",
+          "quantity": 10.4,
+          "unit_material_desc": {
+            "unit": "m2",
+            "material": "washable_bath_paint",
+            "cost_per_unit": 4.2,
+            "wastage_factor": 1.05
+          },
+          "labor": {
+            "hours": 1.78,
+            "cost": 78.53
+          },
+          "materials": {
+            "cost": 43.57
+          },
+          "pricing": {
+            "margin": 0.14200000000000002,
+            "net_price": 139.44,
+            "vat_rate": 0.1,
+            "vat_amount": 13.94,
+            "total_price": 153.39
+          },
+          "estimated_duration_days": 1
+        },
+        {
+          "task": "toilet_replace",
+          "quantity": 1.0,
+          "unit_material_desc": {
+            "unit": "each",
+            "material": "midrange_toilet",
+            "cost_per_unit": 160.0,
+            "wastage_factor": 1.0
+          },
+          "labor": {
+            "hours": 1.14,
+            "cost": 50.34
+          },
+          "materials": {
+            "cost": 136.8
+          },
+          "pricing": {
+            "margin": 0.14200000000000002,
+            "net_price": 213.72,
+            "vat_rate": 0.2,
+            "vat_amount": 42.74,
+            "total_price": 256.46
+          },
+          "estimated_duration_days": 1
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "net_price": 1383.77,
+    "vat_amount": 229.74,
+    "total_price": 1613.51
+  },
+  "assumptions": {
+    "transcript_area_m2": 4.0,
+    "defaults_applied": false,
+    "budget_conscious": true,
+    "city": "Marseille"
+  },
+  "confidence": {
+    "score": 1.0,
+    "flags": []
+  },
+  "trust": {
+    "score": 0.76,
+    "factors": {
+      "data_completeness": 0.9,
+      "price_reasonability": 0.85,
+      "market_volatility": 0.7,
+      "historical_accuracy": 0.6
+    }
+  }
+}
