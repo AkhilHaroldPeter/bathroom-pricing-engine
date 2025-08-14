@@ -1,0 +1,38 @@
+{
+  "tiling_floor": {
+    "unit": "m2",
+    "material": "ceramic_tile_standard",
+    "cost_per_unit": 28.0,
+    "wastage_factor": 1.08
+  },
+  "painting_walls": {
+    "unit": "m2",
+    "material": "washable_bath_paint",
+    "cost_per_unit": 4.2,
+    "wastage_factor": 1.05
+  },
+  "plumbing_shower": {
+    "unit": "each",
+    "material": "shower_rough_in_kit",
+    "cost_per_unit": 120.0,
+    "wastage_factor": 1.0
+  },
+  "toilet_replace": {
+    "unit": "each",
+    "material": "midrange_toilet",
+    "cost_per_unit": 160.0,
+    "wastage_factor": 1.0
+  },
+  "vanity_install": {
+    "unit": "each",
+    "material": "600mm_vanity_combo",
+    "cost_per_unit": 240.0,
+    "wastage_factor": 1.0
+  },
+  "demolition_tiles": {
+    "unit": "m2",
+    "material": "disposal_bags_tip_fee",
+    "cost_per_unit": 6.0,
+    "wastage_factor": 1.0
+  }
+}

@@ -1,0 +1,7 @@
+task,unit,labor_hours_per_unit,notes
+tiling_floor,m2,0.65,includes layout & grout
+painting_walls,m2,0.18,2 coats incl. prep in small bath
+plumbing_shower,each,5.0,rough-in + fixtures fit-off
+toilet_replace,each,1.2,"remove & install, wax ring"
+vanity_install,each,2.0,"assemble, level, silicone"
+demolition_tiles,m2,0.35,remove tiles + cleanup
