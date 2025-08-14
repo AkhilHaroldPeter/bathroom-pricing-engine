@@ -1,7 +1,0 @@
-zone,city,task,quantity,labor_hours,labor_cost,materials_cost,margin,vat_rate,vat_amount,total_price
-Bathroom,Marseille,tiling_floor,4.0,2.47,130.42,112.53,0.182,0.1,28.72,315.88
-Bathroom,Marseille,demolition_tiles,4.0,1.33,70.22,25.92,0.182,0.1,11.36,125.01
-Bathroom,Marseille,vanity_install,1.0,1.9,100.32,233.28,0.182,0.2,78.86,473.18
-Bathroom,Marseille,plumbing_shower,1.0,4.75,250.8,129.6,0.182,0.2,89.93,539.56
-Bathroom,Marseille,painting_walls,10.4,1.78,93.9,49.53,0.182,0.1,16.95,186.49
-Bathroom,Marseille,toilet_replace,1.0,1.14,60.19,155.52,0.182,0.2,50.99,305.97
